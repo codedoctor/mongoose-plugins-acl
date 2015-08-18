@@ -2,25 +2,24 @@
   "author": "Martin Wawrusch <martin@wawrusch.com> (https://www.linkedin.com/in/martinwawrusch)",
   "name": "mongoose-plugins-acl",
   "description": "Basic ACL (access control list) for mongoose.",
-  "version": "1.0.0",
-  "main" : "lib/index.js",
-  "license" : "MIT",
+  "version": "1.0.1",
+  "main": "lib/index.js",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/codedoctor/mongoose-plugins-acl.git"
   },
-  "bin" : {
+  "bin": {},
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
   },
-  "directories" : {
-    "lib" : "./lib",
-    "test" : "./test"
-  },
-  "keywords" : [
+  "keywords": [
     "errors"
   ],
   "scripts": {
-    "prepublish" : "coffee -c -o lib src",
-    "watch" : "coffee -c -w  -o lib src",
+    "prepublish": "coffee -c -o lib src",
+    "watch": "coffee -c -w  -o lib src",
     "test": "coffee -c -o lib src;NODE_ENV=test node_modules/.bin/mocha --timeout 10000 -R spec test/*.coffee"
   },
   "engines": {
@@ -31,7 +30,7 @@
     "underscore": "1.8.3"
   },
   "peerDependencies": {
-    "mongoose" : ">=4.0.0"
+    "mongoose": ">=4.0.0"
   },
   "devDependencies": {
     "coffee-script": "1.9.3",
@@ -53,11 +52,13 @@
     "grunt-shell": "1.1.2",
     "matchdep": "0.3.0"
   },
-  "bugs": { "url": "http://github.com/codedoctor/mongoose-plugins-acl/issues" },
+  "bugs": {
+    "url": "http://github.com/codedoctor/mongoose-plugins-acl/issues"
+  },
   "licenses": [
-    { "type": "MIT",
+    {
+      "type": "MIT",
       "url": "http://github.com/codedoctor/mongoose-plugins-acl/raw/master/LICENSE"
     }
   ]
-  
 }
