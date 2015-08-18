@@ -1,0 +1,63 @@
+{
+  "author": "Martin Wawrusch <martin@wawrusch.com> (https://www.linkedin.com/in/martinwawrusch)",
+  "name": "mongoose-plugins-acl",
+  "description": "Basic ACL (access control list) for mongoose.",
+  "version": "1.0.0",
+  "main" : "lib/index.js",
+  "license" : "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/codedoctor/mongoose-plugins-acl.git"
+  },
+  "bin" : {
+  },
+  "directories" : {
+    "lib" : "./lib",
+    "test" : "./test"
+  },
+  "keywords" : [
+    "errors"
+  ],
+  "scripts": {
+    "prepublish" : "coffee -c -o lib src",
+    "watch" : "coffee -c -w  -o lib src",
+    "test": "coffee -c -o lib src;NODE_ENV=test node_modules/.bin/mocha --timeout 10000 -R spec test/*.coffee"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "hoek": "2.14.0",
+    "underscore": "1.8.3"
+  },
+  "peerDependencies": {
+    "mongoose" : ">=4.0.0"
+  },
+  "devDependencies": {
+    "coffee-script": "1.9.3",
+    "codo": "2.0.11",
+    "mocha": "2.2.5",
+    "should": "7.0.4",
+    "mongoose": "4.1.3",
+    "blanket": "1.1.7",
+    "deep-equal": "1.0.0",
+    "grunt": "0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-concurrent": "2.0.1",
+    "grunt-contrib-coffee": "0.13.0",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-env": "0.4.4",
+    "grunt-mocha-cov": "0.4.0",
+    "grunt-mocha-test": "0.12.7",
+    "grunt-release": "0.13.0",
+    "grunt-shell": "1.1.2",
+    "matchdep": "0.3.0"
+  },
+  "bugs": { "url": "http://github.com/codedoctor/mongoose-plugins-acl/issues" },
+  "licenses": [
+    { "type": "MIT",
+      "url": "http://github.com/codedoctor/mongoose-plugins-acl/raw/master/LICENSE"
+    }
+  ]
+  
+}

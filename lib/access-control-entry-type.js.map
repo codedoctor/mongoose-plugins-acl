@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "access-control-entry-type.js",
+  "sourceRoot": "../src/",
+  "sources": [
+    "access-control-entry-type.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;AAAA,MAAA;;EAAA,CAAA,GAAI,OAAA,CAAQ,YAAR;;EACJ,QAAA,GAAW,OAAA,CAAQ,UAAR;;EAEX,sBAAA,GACE;IAAA,MAAA,EACE;MAAA,IAAA,EAAM,QAAQ,CAAC,MAAM,CAAC,QAAtB;MACA,QAAA,EAAU,IADV;KADF;IAGA,KAAA,EACE;MAAA,IAAA,EAAM,CAAC,MAAD,CAAN;MACA,SAAA,EAAS,SAAA;eAAG;MAAH,CADT;MAEA,QAAA,EAAU,IAFV;KAJF;;AAJF"
+}
