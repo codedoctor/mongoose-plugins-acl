@@ -2,7 +2,7 @@
   "author": "Martin Wawrusch <martin@wawrusch.com> (https://www.linkedin.com/in/martinwawrusch)",
   "name": "mongoose-plugins-acl",
   "description": "Basic ACL (access control list) for mongoose.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "license": "MIT",
   "repository": {
@@ -15,7 +15,10 @@
     "test": "./test"
   },
   "keywords": [
-    "acl","mongoose","mongodb","plugin"
+    "acl",
+    "mongoose",
+    "mongodb",
+    "plugin"
   ],
   "scripts": {
     "test": "node_modules/.bin/grunt test"
