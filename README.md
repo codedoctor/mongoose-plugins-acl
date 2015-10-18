@@ -10,6 +10,9 @@ YourSchema.plugin pluginAcl
 
 ## Release Notes
 
+### 1.0.2
+* Updated versions.
+
 ### 1.0.0
 * First version
 
